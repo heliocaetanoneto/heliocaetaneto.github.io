@@ -8,7 +8,7 @@ body {
 /* O cabeçalho agora vira um banner com a nossa foto de fundo */
 header {
     /* MUITO IMPORTANTE: Troque 'tailandia.jpg' pelo nome da sua foto! */
-    background-image: url('20250723_171506(1).jpg'); 
+    background-image: url('heliocaetaneto.github.io/Boipeba.jpg.jpg'); 
 
     height: 70vh; /* Ocupa 70% da altura da tela do visitante */
     background-size: cover; /* Faz a imagem cobrir todo o espaço, sem distorcer */
