@@ -21,7 +21,7 @@ body {
 /* O cabeçalho agora vira um banner com a nossa foto de fundo */
 header {
     /* A linha abaixo é a que você vai mudar */
-    background-image: url('imagens/20250723_1715061(1).jpg'); /* OU o nome da sua imagem antiga */
+    background-image: url('20250723_171506(1).jpg'); /* OU o nome da sua imagem antiga */
     
     height: 70vh;
     background-size: cover;
