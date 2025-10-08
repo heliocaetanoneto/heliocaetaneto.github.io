@@ -18,12 +18,21 @@ body {
 }
 
 /* Cabeçalho e Rodapé */
+/* O cabeçalho agora vira um banner com a nossa foto de fundo */
 header {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 20px;
+    /* A linha abaixo é a que você vai mudar */
+    background-image: url('imagens/20250723_1715061(1).jpg'); /* OU o nome da sua imagem antiga */
+    
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
     text-align: center;
-    border-radius: 8px 8px 0 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
 header h1 {
