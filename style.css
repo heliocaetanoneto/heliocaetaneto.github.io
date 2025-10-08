@@ -1,60 +1,86 @@
+/* Estilos Gerais */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
     color: #333;
-    background-color: #fff;
 }
 
-/* O cabeçalho agora vira um banner com a nossa foto de fundo */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Cabeçalho e Rodapé */
 header {
-    /* MUITO IMPORTANTE: Troque 'tailandia.jpg' pelo nome da sua foto! */
-    background-image: url('20250723_171506(1).jpg'); 
-
-    height: 70vh; /* Ocupa 70% da altura da tela do visitante */
-    background-size: cover; /* Faz a imagem cobrir todo o espaço, sem distorcer */
-    background-position: center; /* Tenta manter o centro da imagem visível */
-
-    /* Alinhamento do texto sobre a imagem */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    /* Estilo do texto */
-    color: white;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.6); /* Sombra para legibilidade */
+    border-radius: 8px 8px 0 0;
 }
 
 header h1 {
-    font-size: 3.5rem; /* rem é uma unidade de medida flexível */
-    margin-bottom: 10px;
+    margin: 0;
 }
 
 header p {
-    font-size: 1.2rem;
+    margin: 5px 0 0;
     font-style: italic;
 }
 
-/* Conteúdo principal da página */
-main {
-    max-width: 800px; /* Largura máxima do texto */
-    margin: 40px auto; /* Centraliza na página com espaço acima/abaixo */
-    padding: 0 20px; /* Espaçamento nas laterais */
-    line-height: 1.7;
-}
-
-section h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #555;
-}
-
-/* Rodapé */
 footer {
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
-    background-color: #f8f8f8;
-    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    color: #777;
+    border-top: 1px solid #eaeaea;
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 20px 0;
+}
+
+.conteudo-principal h2 {
+    color: #0056b3;
+}
+
+/* Seção de Botões */
+.botoes-pesquisa {
+    text-align: center;
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+}
+
+.botoes-pesquisa h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.botao-pesquisa {
+    display: inline-block;
+    background-color: #28a745; /* Cor verde para os botões de ação */
+    color: white;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s; /* Efeitos de transição */
+}
+
+.botao-pesquisa:hover {
+    background-color: #218838; /* Cor mais escura ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de leve elevação */
 }
