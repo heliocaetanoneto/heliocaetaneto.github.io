@@ -23,7 +23,7 @@ header {
     /* A linha abaixo é a que você vai mudar */
     background-image: url('20250723_171506(1).jpg'); /* OU o nome da sua imagem antiga */
     
-    height: 100vh;
+    height: 70vh;
     background-size: cover;
     background-position: center;
     display: flex;
